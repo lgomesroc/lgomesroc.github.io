@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(font/Raleway-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/papyrus-dark.png');
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #cdcdcd;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#profile-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.info {
+  width: 400px;
+  color: #cdcdcd;
+  background-color: #020202;
+  padding: 10 15  px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.info a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav img {
+  width: 48px;
+  height: 48px;
+  padding: 24px;
+}
+
+nav img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
